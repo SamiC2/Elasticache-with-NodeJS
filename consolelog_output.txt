@@ -1,0 +1,60 @@
+ec2-user:~/environment $ npm install aws-sdk
+ec2-user:~/environment $ npm install redis
+npm WARN saveError ENOENT: no such file or directory, open '/home/ec2-user/package.json'
+npm WARN enoent ENOENT: no such file or directory, open '/home/ec2-user/package.json'
+npm WARN ec2-user No description
+npm WARN ec2-user No repository field.
+npm WARN ec2-user No README data
+npm WARN ec2-user No license field.
+
++ redis@2.8.0
+updated 1 package and audited 48 packages in 0.759s
+found 0 vulnerabilities
+
+ec2-user:~/environment $ node index.js
+connected
+^C
+ec2-user:~/environment $ node index.js
+connected
+connected
+OK
+^C
+ec2-user:~/environment $ node index.js
+connected
+connected
+OK
+^C
+ec2-user:~/environment $ node index.js
+connected
+connected
+OK
+^C
+ec2-user:~/environment $ node index.js
+connected
+connected
+OK
+1000
+^C
+ec2-user:~/environment $ node index.js
+connected
+connected
+OK
+1000
+OK
+^C
+ec2-user:~/environment $ node index.js
+connected
+OK
+1000
+OK
+^C
+ec2-user:~/environment $ node index.js
+connected
+OK
+1000
+OK
+{ info1: 'This is info 1',
+  info2: 'This is info 2',
+  info3: 'This is info 3' }
+^C
+ec2-user:~/environment $ 
